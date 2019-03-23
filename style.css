@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    color: #202020;
+}
+
+table,ul {
+    text-align: center;
+    display: inline-block;
+}
+
+div.content {
+    padding: 16;
+    text-align: center;
+}
+
+div#header {
+    background-color: #BFEFFF;
+}
+
+li {
+    width: fit-content;
+    padding: 2;
+}
+
+a.button {
+    background-color: #80DFFF;
+    display: inline-block;
+    padding: 16;
+    width: fit-content;
+    text-decoration: none;
+    border: none;
+}
+
+a.button:link {
+    color: black;
+}
+
+a.button:visited {
+    color: black;
+}
+
+a.button:hover {
+    background-color: #BFEFFF;
+}
+
+a.button:active {
+    background-color: #80DFFF;
+    color: white;
+}
